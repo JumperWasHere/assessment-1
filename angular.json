@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "assessment1": {
+    "assessment-1": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "assessment1:build:production"
+              "browserTarget": "assessment-1:build:production"
             },
             "development": {
-              "browserTarget": "assessment1:build:development"
+              "browserTarget": "assessment-1:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "assessment1:build"
+            "browserTarget": "assessment-1:build"
           }
         },
         "test": {
